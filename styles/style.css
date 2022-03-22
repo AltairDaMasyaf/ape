@@ -170,7 +170,7 @@ p {
   align-items: center;
   background-color: black;
   border-bottom: 2px solid #fff;
-  padding: 1rem;
+  padding: 0 1rem;
   position: fixed;
   width: 100%;
   z-index: 20;
@@ -180,7 +180,11 @@ p {
   margin: 0;
 }
 .nav__brand {
-  width: 150px;
+  width: 100px;
+  height: 70px;
+}
+.nav__toggler {
+  margin-bottom: 5px;
 }
 .nav__item {
   list-style: none;
@@ -224,6 +228,7 @@ p {
   background: black;
   z-index: 1;
   border-bottom: 2px solid white;
+  padding-top: 2rem;
 }
 .hero__img {
   position: absolute;
