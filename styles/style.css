@@ -348,7 +348,7 @@ p {
     color: var(--color-body);
   }
   .tokenomics__img {
-    width: 350px;
+    width: 300px;
     border-radius: 2rem;
     order: 2;
   }
