@@ -15,10 +15,10 @@ $(document).ready(function () {
     $(document).scroll(function () {
       scroll_start = $(this).scrollTop();
       if (scroll_start > offset.top) {
-        // $(".nav").css("background-color", "#000");
+        $(".nav").css("background-color", "#000");
         $(".nav").css("border-bottom", "2px solid #f9b427");
       } else {
-        // $(".nav").css("background-color", "transparent");
+        $(".nav").css("background-color", "transparent");
         $(".nav").css("border-bottom", "1px solid #f9b427");
       }
     });
