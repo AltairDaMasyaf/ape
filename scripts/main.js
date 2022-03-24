@@ -16,10 +16,10 @@ $(document).ready(function () {
       scroll_start = $(this).scrollTop();
       if (scroll_start > offset.top) {
         // $(".nav").css("background-color", "#000");
-        $(".nav").css("border-bottom", "2px solid #f9b427");
+        $(".nav").css("border-bottom", "2px solid rgb(51,84,172)");
       } else {
         // $(".nav").css("background-color", "transparent");
-        $(".nav").css("border-bottom", "2px solid white");
+        $(".nav").css("border-bottom", "2px solid rgb(51,84,172)");
       }
     });
   }
