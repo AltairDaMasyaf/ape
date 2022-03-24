@@ -617,9 +617,7 @@ ul {
   border-radius: 50%;
   cursor: pointer;
 }
-.footer__content i:hover {
-  color: white;
-}
+
 .footer__content * {
   transition: all 0.3s;
 }
