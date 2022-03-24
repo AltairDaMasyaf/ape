@@ -396,7 +396,7 @@ p {
   }
   .graph {
     margin-top: 2rem;
-    width: 350px;
+    width: 300px;
     transform: translateX(-10px);
   }
 }
